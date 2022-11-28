@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 40px, 0, 620px, 0;
+}
+
+.logo_text {
+    padding: 5px, 0, 5px, 0;
+}
+
+.nav {
+    padding: 11px, 0, 11px, 0;
+}
+
+.body_page_content {
+    margin-top: 84px;
+}
+
+.body_page_title {
+    margin-bottom: 17px;
+}
+
+.info_text {
+    margin-bottom: 37px;
+}
+
+.body_page_logos {
+    margin-top: 259px;
+}
