@@ -3,30 +3,140 @@
     margin: 0;
 }
 
-.header {
-    padding: 40px, 0, 620px, 0;
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.woff') format('woff');
 }
 
-.logo_text {
-    padding: 5px, 0, 5px, 0;
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/Gilroy-SemiBold.woff') format('woff');
+}
+
+.body_page {
+    background-color: #ffffff;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.logo_nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 500px;
+}
+
+.header_logo {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+
+.logo_text1 {
+    padding-top: 5px;
+}
+
+.logo_text2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.logo_be {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #F25822;
 }
 
 .nav {
-    padding: 11px, 0, 11px, 0;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav_home {
+    padding-top: 11px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+
+.nav_other {
+    padding-top: 11px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .body_page_content {
     margin-top: 84px;
+    margin-bottom: 259px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 41px;
+}
+
+.body_page_info {
+    width: 100%;
+    max-width: 522px;
 }
 
 .body_page_title {
     margin-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
 
 .info_text {
     margin-bottom: 37px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.info_btn_start {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.info_btn_watch {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.center {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .body_page_logos {
-    margin-top: 259px;
+    margin-bottom: 96px;
+}
+
+.body_page_logos_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 48px;
 }
